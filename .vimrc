@@ -11,6 +11,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'sjl/gundo.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'mhartington/oceanic-next'
 call vundle#end()
 filetype plugin indent on
 
@@ -39,3 +40,10 @@ set term=xterm-256color
 
 " get rid of the delay when pressing O
 set timeout timeoutlen=1000 ttimeoutlen=100
+
+" for vim 8
+ if (has("termguicolors"))
+  set termguicolors
+ endif
+
+colorscheme OceanicNext
