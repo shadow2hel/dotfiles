@@ -96,3 +96,7 @@ source $ZSH/oh-my-zsh.sh
 if [[ -r ~/.local/lib/python3.6/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
     source ~/.local/lib/python3.6/site-packages/powerline/bindings/zsh/powerline.zsh
 fi
+
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/oceanic-next-shell/oceanic-next.dark.sh"
+[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
