@@ -47,3 +47,5 @@ set timeout timeoutlen=1000 ttimeoutlen=100
  endif
 
 colorscheme OceanicNext
+
+set cursorline
